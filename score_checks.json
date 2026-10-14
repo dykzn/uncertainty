@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "author_revision": "adffd0046e45f1a4c70a03e0de37fcf0a348edd0",
+  "reference_matrices": 102,
+  "maximum_absolute_error": {
+    "deg": 1.1102230246251565e-16,
+    "eigv": 3.1086244689504383e-15,
+    "ecc": 0.0,
+    "kle": 3.3306690738754696e-16
+  },
+  "spuq_weighted_aggregation_error": 0.0,
+  "coherent_and_disconnected_graph_ordering": true,
+  "gripper_disagreement_similarity_zero": true
+}

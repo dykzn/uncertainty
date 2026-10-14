@@ -1,0 +1,63 @@
+{
+  "export_version": 2,
+  "numerical_sources_byte_identical": {
+    "action_scores.py": true,
+    "graphed_decode.py": true,
+    "sampled_decode_graphs.py": true
+  },
+  "changes": [
+    "configurable data/checkpoint paths",
+    "self-contained inference and simulator code",
+    "relative run artifact paths",
+    "GPU-count-aware partition and worker capacity"
+  ],
+  "upstream_sources": {
+    "black_box_ue": {
+      "repository": "wangjy0116/Black-Box-UE-Hub",
+      "revision": "adffd0046e45f1a4c70a03e0de37fcf0a348edd0",
+      "files": [
+        {
+          "path": "src/method/deg.py",
+          "sha256": "fbf3700d4ba8eee7c6b1af4983d772b46317f685ec29f8468a5b8b7016a6cfa9"
+        },
+        {
+          "path": "src/method/eigv.py",
+          "sha256": "df97d3da4861360e3d0520e7bd784eb849146524e27b8dcb875dcf56ca62a49b"
+        },
+        {
+          "path": "src/method/ecc.py",
+          "sha256": "e72d0b33ce35e4cd0faae5fb415e3d0c5ca1ec4b48f68fd94e1e25550897db50"
+        },
+        {
+          "path": "src/method/kle.py",
+          "sha256": "eb73357a9a38ff4b7ecb8d5aa9285d5471f5fbb7f647e9205177d3b89507e46d"
+        },
+        {
+          "path": "src/method/spuq.py",
+          "sha256": "9125403bee10d8e6619741618d56345c1363e559c18bbd2d2265efd6a1da5ce7"
+        },
+        {
+          "path": "src/config.py",
+          "sha256": "1f12acf4ecb321ac46b22d556ee02e16d10dd465485a0940bab5b91049e6a2e5"
+        },
+        {
+          "path": "src/utils.py",
+          "sha256": "b10af2ebdc3d2297806e6a1899ed863c5b8b607a5b8c45740ceffb20707300e0"
+        }
+      ]
+    },
+    "libero_reflect_revision": "3b8e6eb2501969b441fdaaf9da32c14ba77e4bfd",
+    "anonymous_vla_source": "https://anonymous.4open.science/r/MAE_Self_Evaluation_Framework_for_VLA-B37D/"
+  },
+  "benchmark_data_checks": {
+    "standard_BDDL_and_initial_state_files_match": true,
+    "standard_asset_files": 585,
+    "asset_files_with_identical_content": 575,
+    "asset_files_with_texture_path_fixes": 10,
+    "texture_path_difference": "Pinned download replaces upstream absolute machine paths with relative texture paths; geometry and numeric initial states are unchanged."
+  },
+  "instruction_export": {
+    "precomputed_weights_and_texts_preserved_exactly": true,
+    "unused_embedding_vectors_omitted": true
+  }
+}

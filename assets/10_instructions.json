@@ -1,0 +1,200 @@
+{
+  "suite": "libero_10",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "paraphrase_source": "reviewed templates preserving objects, locations, action conjunctions and order",
+  "pooling": "attention-mask mean pooling and L2 normalization; maximum 256 tokens",
+  "tasks": [
+    {
+      "task_id": 1,
+      "original": "put both the alphabet soup and the tomato sauce in the basket",
+      "perturbations": [
+        "put both the alphabet soup and the tomato sauce in the basket",
+        "place both the alphabet soup and the tomato sauce in the basket",
+        "put the alphabet soup and the tomato sauce into the basket",
+        "move both the alphabet soup and the tomato sauce into the basket",
+        "please put both the alphabet soup and the tomato sauce in the basket"
+      ],
+      "instruction_weights": [
+        1.0,
+        0.9928745627403259,
+        0.9848835468292236,
+        0.9612025022506714,
+        0.9570169448852539
+      ],
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket"
+    },
+    {
+      "task_id": 2,
+      "original": "put both the cream cheese box and the butter in the basket",
+      "perturbations": [
+        "put both the cream cheese box and the butter in the basket",
+        "place both the cream cheese box and the butter in the basket",
+        "put the cream cheese box and the butter into the basket",
+        "move both the cream cheese box and the butter into the basket",
+        "please put both the cream cheese box and the butter in the basket"
+      ],
+      "instruction_weights": [
+        0.9999999403953552,
+        0.9921910166740417,
+        0.9797282814979553,
+        0.9667541980743408,
+        0.9657876491546631
+      ],
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket"
+    },
+    {
+      "task_id": 3,
+      "original": "turn on the stove and put the moka pot on it",
+      "perturbations": [
+        "turn on the stove and put the moka pot on it",
+        "switch on the stove and place the moka pot on it",
+        "turn the stove on and put the moka pot on the stove",
+        "turn on the stove, then place the moka pot on it",
+        "please turn on the stove and put the moka pot on it"
+      ],
+      "instruction_weights": [
+        1.0,
+        0.9739940762519836,
+        0.9848541021347046,
+        0.9916555285453796,
+        0.9520467519760132
+      ],
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it"
+    },
+    {
+      "task_id": 4,
+      "original": "put the black bowl in the bottom drawer of the cabinet and close it",
+      "perturbations": [
+        "put the black bowl in the bottom drawer of the cabinet and close it",
+        "place the black bowl in the cabinet's bottom drawer and close the drawer",
+        "put the black bowl into the bottom drawer of the cabinet and close that drawer",
+        "put the black bowl in the bottom drawer of the cabinet, then close the drawer",
+        "please put the black bowl in the bottom drawer of the cabinet and close it"
+      ],
+      "instruction_weights": [
+        1.0,
+        0.9641618728637695,
+        0.9875746369361877,
+        0.9829917550086975,
+        0.9422644972801208
+      ],
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it"
+    },
+    {
+      "task_id": 5,
+      "original": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "perturbations": [
+        "put the white mug on the left plate and put the yellow and white mug on the right plate",
+        "place the white mug on the left plate and place the yellow and white mug on the right plate",
+        "set the white mug on the left plate and set the yellow and white mug on the right plate",
+        "put the white mug on the left plate, then put the yellow and white mug on the right plate",
+        "please put the white mug on the left plate and put the yellow and white mug on the right plate"
+      ],
+      "instruction_weights": [
+        1.0000001192092896,
+        0.9837679266929626,
+        0.9794842600822449,
+        0.9971386790275574,
+        0.9582566618919373
+      ],
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate"
+    },
+    {
+      "task_id": 6,
+      "original": "pick up the book and place it in the back compartment of the caddy",
+      "perturbations": [
+        "pick up the book and place it in the back compartment of the caddy",
+        "lift the book and put it in the back compartment of the caddy",
+        "take the book and place it in the caddy's back compartment",
+        "grasp the book, then place it in the back compartment of the caddy",
+        "please pick up the book and place it in the back compartment of the caddy"
+      ],
+      "instruction_weights": [
+        0.9999998211860657,
+        0.9578052163124084,
+        0.9826182723045349,
+        0.9639688730239868,
+        0.951180636882782
+      ],
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy"
+    },
+    {
+      "task_id": 7,
+      "original": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+      "perturbations": [
+        "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+        "place the white mug on the plate and place the chocolate pudding to the right of the plate",
+        "set the white mug on the plate and put the chocolate pudding to the right of the plate",
+        "put the white mug on the plate, then put the chocolate pudding to the right of the plate",
+        "please put the white mug on the plate and put the chocolate pudding to the right of the plate"
+      ],
+      "instruction_weights": [
+        0.9999998807907104,
+        0.9919363260269165,
+        0.9963395595550537,
+        0.9959588050842285,
+        0.958563506603241
+      ],
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate"
+    },
+    {
+      "task_id": 8,
+      "original": "put both the alphabet soup and the cream cheese box in the basket",
+      "perturbations": [
+        "put both the alphabet soup and the cream cheese box in the basket",
+        "place both the alphabet soup and the cream cheese box in the basket",
+        "put the alphabet soup and the cream cheese box into the basket",
+        "move both the alphabet soup and the cream cheese box into the basket",
+        "please put both the alphabet soup and the cream cheese box in the basket"
+      ],
+      "instruction_weights": [
+        0.9999999403953552,
+        0.9923503398895264,
+        0.9846376180648804,
+        0.9539084434509277,
+        0.956587553024292
+      ],
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket"
+    },
+    {
+      "task_id": 9,
+      "original": "put both moka pots on the stove",
+      "perturbations": [
+        "put both moka pots on the stove",
+        "place both moka pots on the stove",
+        "set both moka pots on the stove",
+        "move both moka pots onto the stove",
+        "please put both moka pots on the stove"
+      ],
+      "instruction_weights": [
+        1.000000238418579,
+        0.9910551309585571,
+        0.975041389465332,
+        0.9381645917892456,
+        0.9708312749862671
+      ],
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove"
+    },
+    {
+      "task_id": 10,
+      "original": "put the yellow and white mug in the microwave and close it",
+      "perturbations": [
+        "put the yellow and white mug in the microwave and close it",
+        "place the yellow and white mug in the microwave and close the microwave",
+        "put the yellow and white mug into the microwave and close it",
+        "put the yellow and white mug in the microwave, then close the microwave",
+        "please put the yellow and white mug in the microwave and close it"
+      ],
+      "instruction_weights": [
+        0.9999999403953552,
+        0.9761913418769836,
+        0.9972553849220276,
+        0.9841309189796448,
+        0.94029301404953
+      ],
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it"
+    }
+  ],
+  "preparation_source_sha256": "1c610d134cc0539e7565cee0eb5d57b9cdb9801519cf40f6ca19cfca5f4d4680"
+}

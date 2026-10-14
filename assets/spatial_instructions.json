@@ -1,0 +1,189 @@
+{
+  "suite": "libero_spatial",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "paraphrase_source": "manually reviewed templates preserving object, location and destination",
+  "pooling": "attention-mask mean pooling and L2 normalization; maximum 256 tokens",
+  "tasks": [
+    {
+      "task_id": 1,
+      "original": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "perturbations": [
+        "pick up the black bowl between the plate and the ramekin and place it on the plate",
+        "lift the black bowl between the plate and the ramekin and put it on the plate",
+        "take the black bowl between the plate and the ramekin and set it on the plate",
+        "grasp the black bowl between the plate and the ramekin, then place it on the plate",
+        "pick up the black bowl between the plate and the ramekin, then put it on the plate"
+      ],
+      "instruction_weights": [
+        1.0000001192092896,
+        0.9729980230331421,
+        0.9709502458572388,
+        0.9748609066009521,
+        0.9896717071533203
+      ]
+    },
+    {
+      "task_id": 2,
+      "original": "pick up the black bowl next to the ramekin and place it on the plate",
+      "perturbations": [
+        "pick up the black bowl next to the ramekin and place it on the plate",
+        "lift the black bowl next to the ramekin and put it on the plate",
+        "take the black bowl next to the ramekin and set it on the plate",
+        "grasp the black bowl next to the ramekin, then place it on the plate",
+        "pick up the black bowl next to the ramekin, then put it on the plate"
+      ],
+      "instruction_weights": [
+        1.0000001192092896,
+        0.9745689630508423,
+        0.9782161712646484,
+        0.9670782089233398,
+        0.9932343363761902
+      ]
+    },
+    {
+      "task_id": 3,
+      "original": "pick up the black bowl from table center and place it on the plate",
+      "perturbations": [
+        "pick up the black bowl from table center and place it on the plate",
+        "lift the black bowl from table center and put it on the plate",
+        "take the black bowl from table center and set it on the plate",
+        "grasp the black bowl from table center, then place it on the plate",
+        "pick up the black bowl from table center, then put it on the plate"
+      ],
+      "instruction_weights": [
+        1.0,
+        0.9670217633247375,
+        0.970777153968811,
+        0.967102587223053,
+        0.9892834424972534
+      ]
+    },
+    {
+      "task_id": 4,
+      "original": "pick up the black bowl on the cookie box and place it on the plate",
+      "perturbations": [
+        "pick up the black bowl on the cookie box and place it on the plate",
+        "lift the black bowl on the cookie box and put it on the plate",
+        "take the black bowl on the cookie box and set it on the plate",
+        "grasp the black bowl on the cookie box, then place it on the plate",
+        "pick up the black bowl on the cookie box, then put it on the plate"
+      ],
+      "instruction_weights": [
+        0.9999998807907104,
+        0.9785637855529785,
+        0.982384204864502,
+        0.974229097366333,
+        0.9936648607254028
+      ]
+    },
+    {
+      "task_id": 5,
+      "original": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+      "perturbations": [
+        "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+        "lift the black bowl in the top drawer of the wooden cabinet and put it on the plate",
+        "take the black bowl in the top drawer of the wooden cabinet and set it on the plate",
+        "grasp the black bowl in the top drawer of the wooden cabinet, then place it on the plate",
+        "pick up the black bowl in the top drawer of the wooden cabinet, then put it on the plate"
+      ],
+      "instruction_weights": [
+        0.9999999403953552,
+        0.9803739190101624,
+        0.9712671637535095,
+        0.9727338552474976,
+        0.9920737743377686
+      ]
+    },
+    {
+      "task_id": 6,
+      "original": "pick up the black bowl on the ramekin and place it on the plate",
+      "perturbations": [
+        "pick up the black bowl on the ramekin and place it on the plate",
+        "lift the black bowl on the ramekin and put it on the plate",
+        "take the black bowl on the ramekin and set it on the plate",
+        "grasp the black bowl on the ramekin, then place it on the plate",
+        "pick up the black bowl on the ramekin, then put it on the plate"
+      ],
+      "instruction_weights": [
+        0.9999998807907104,
+        0.9765360951423645,
+        0.9772806763648987,
+        0.9699481129646301,
+        0.9919617176055908
+      ]
+    },
+    {
+      "task_id": 7,
+      "original": "pick up the black bowl next to the cookie box and place it on the plate",
+      "perturbations": [
+        "pick up the black bowl next to the cookie box and place it on the plate",
+        "lift the black bowl next to the cookie box and put it on the plate",
+        "take the black bowl next to the cookie box and set it on the plate",
+        "grasp the black bowl next to the cookie box, then place it on the plate",
+        "pick up the black bowl next to the cookie box, then put it on the plate"
+      ],
+      "instruction_weights": [
+        1.0,
+        0.9775510430335999,
+        0.9812731742858887,
+        0.9709047079086304,
+        0.9935307502746582
+      ]
+    },
+    {
+      "task_id": 8,
+      "original": "pick up the black bowl on the stove and place it on the plate",
+      "perturbations": [
+        "pick up the black bowl on the stove and place it on the plate",
+        "lift the black bowl on the stove and put it on the plate",
+        "take the black bowl on the stove and set it on the plate",
+        "grasp the black bowl on the stove, then place it on the plate",
+        "pick up the black bowl on the stove, then put it on the plate"
+      ],
+      "instruction_weights": [
+        1.0,
+        0.9766177535057068,
+        0.9762946963310242,
+        0.9716479182243347,
+        0.9930463433265686
+      ]
+    },
+    {
+      "task_id": 9,
+      "original": "pick up the black bowl next to the plate and place it on the plate",
+      "perturbations": [
+        "pick up the black bowl next to the plate and place it on the plate",
+        "lift the black bowl next to the plate and put it on the plate",
+        "take the black bowl next to the plate and set it on the plate",
+        "grasp the black bowl next to the plate, then place it on the plate",
+        "pick up the black bowl next to the plate, then put it on the plate"
+      ],
+      "instruction_weights": [
+        1.0000001192092896,
+        0.9585747718811035,
+        0.9611485600471497,
+        0.9600799679756165,
+        0.9876495003700256
+      ]
+    },
+    {
+      "task_id": 10,
+      "original": "pick up the black bowl on the wooden cabinet and place it on the plate",
+      "perturbations": [
+        "pick up the black bowl on the wooden cabinet and place it on the plate",
+        "lift the black bowl on the wooden cabinet and put it on the plate",
+        "take the black bowl on the wooden cabinet and set it on the plate",
+        "grasp the black bowl on the wooden cabinet, then place it on the plate",
+        "pick up the black bowl on the wooden cabinet, then put it on the plate"
+      ],
+      "instruction_weights": [
+        0.9999999403953552,
+        0.9744179844856262,
+        0.9689263701438904,
+        0.9710978865623474,
+        0.9909632205963135
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "observations": 8,
+  "sampled_sequences": 72,
+  "action_tokens": 504,
+  "saved_native_samples_bit_equal": true,
+  "sampled_tokens_bit_equal": true,
+  "matching_sequences": 72,
+  "post_sampling_rng_states_equal": true,
+  "matching_rng_states": 72,
+  "maximum_five_method_score_error": 0.0,
+  "seconds_per_nine_sample_query": {
+    "native": [
+      2.2529669664800167,
+      2.258540046711763
+    ],
+    "fast": [
+      1.0994735086957614,
+      1.098912523438533
+    ]
+  },
+  "sampling_speedup": 2.0521905376244596,
+  "captured_sampling_shapes": 9,
+  "source_sha256": {
+    "sampled_decode_graphs.py": "3354cb62612705eb505002d9f5458d8c6175e436317691d43f9967061658e0b4",
+    "graphed_decode.py": "ac629675a0f92fdcedce9b4ebc67b229c3ece32033d4566fbba2e4f5222a18ec"
+  },
+  "scope": "Reference validation on A100/CUDA12.4. Live native token/RNG checks are also enabled on the target server."
+}

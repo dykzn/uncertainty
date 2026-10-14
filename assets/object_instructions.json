@@ -1,0 +1,200 @@
+{
+  "suite": "libero_object",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "paraphrase_source": "reviewed templates preserving objects, locations, action conjunctions and order",
+  "pooling": "attention-mask mean pooling and L2 normalization; maximum 256 tokens",
+  "tasks": [
+    {
+      "task_id": 1,
+      "original": "pick up the alphabet soup and place it in the basket",
+      "perturbations": [
+        "pick up the alphabet soup and place it in the basket",
+        "lift the alphabet soup and put it in the basket",
+        "take the alphabet soup and set it in the basket",
+        "grasp the alphabet soup, then place it in the basket",
+        "pick up the alphabet soup, then put it in the basket"
+      ],
+      "instruction_weights": [
+        0.9999998807907104,
+        0.9669737815856934,
+        0.968197226524353,
+        0.9625943899154663,
+        0.9898894429206848
+      ],
+      "task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket"
+    },
+    {
+      "task_id": 2,
+      "original": "pick up the cream cheese and place it in the basket",
+      "perturbations": [
+        "pick up the cream cheese and place it in the basket",
+        "lift the cream cheese and put it in the basket",
+        "take the cream cheese and set it in the basket",
+        "grasp the cream cheese, then place it in the basket",
+        "pick up the cream cheese, then put it in the basket"
+      ],
+      "instruction_weights": [
+        0.9999999403953552,
+        0.9690953493118286,
+        0.9684008359909058,
+        0.9660066962242126,
+        0.9906357526779175
+      ],
+      "task_name": "pick_up_the_cream_cheese_and_place_it_in_the_basket"
+    },
+    {
+      "task_id": 3,
+      "original": "pick up the salad dressing and place it in the basket",
+      "perturbations": [
+        "pick up the salad dressing and place it in the basket",
+        "lift the salad dressing and put it in the basket",
+        "take the salad dressing and set it in the basket",
+        "grasp the salad dressing, then place it in the basket",
+        "pick up the salad dressing, then put it in the basket"
+      ],
+      "instruction_weights": [
+        1.0,
+        0.9639491438865662,
+        0.9637082815170288,
+        0.9557361006736755,
+        0.9888961315155029
+      ],
+      "task_name": "pick_up_the_salad_dressing_and_place_it_in_the_basket"
+    },
+    {
+      "task_id": 4,
+      "original": "pick up the bbq sauce and place it in the basket",
+      "perturbations": [
+        "pick up the bbq sauce and place it in the basket",
+        "lift the bbq sauce and put it in the basket",
+        "take the bbq sauce and set it in the basket",
+        "grasp the bbq sauce, then place it in the basket",
+        "pick up the bbq sauce, then put it in the basket"
+      ],
+      "instruction_weights": [
+        1.0000001192092896,
+        0.9694297909736633,
+        0.9709579944610596,
+        0.9607370495796204,
+        0.9918018579483032
+      ],
+      "task_name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket"
+    },
+    {
+      "task_id": 5,
+      "original": "pick up the ketchup and place it in the basket",
+      "perturbations": [
+        "pick up the ketchup and place it in the basket",
+        "lift the ketchup and put it in the basket",
+        "take the ketchup and set it in the basket",
+        "grasp the ketchup, then place it in the basket",
+        "pick up the ketchup, then put it in the basket"
+      ],
+      "instruction_weights": [
+        0.9999998807907104,
+        0.9764009118080139,
+        0.9723033905029297,
+        0.9673987627029419,
+        0.9933342337608337
+      ],
+      "task_name": "pick_up_the_ketchup_and_place_it_in_the_basket"
+    },
+    {
+      "task_id": 6,
+      "original": "pick up the tomato sauce and place it in the basket",
+      "perturbations": [
+        "pick up the tomato sauce and place it in the basket",
+        "lift the tomato sauce and put it in the basket",
+        "take the tomato sauce and set it in the basket",
+        "grasp the tomato sauce, then place it in the basket",
+        "pick up the tomato sauce, then put it in the basket"
+      ],
+      "instruction_weights": [
+        1.0,
+        0.9684264659881592,
+        0.9662555456161499,
+        0.9620079398155212,
+        0.989615797996521
+      ],
+      "task_name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket"
+    },
+    {
+      "task_id": 7,
+      "original": "pick up the butter and place it in the basket",
+      "perturbations": [
+        "pick up the butter and place it in the basket",
+        "lift the butter and put it in the basket",
+        "take the butter and set it in the basket",
+        "grasp the butter, then place it in the basket",
+        "pick up the butter, then put it in the basket"
+      ],
+      "instruction_weights": [
+        1.0,
+        0.9634397625923157,
+        0.953413724899292,
+        0.9596808552742004,
+        0.9868054986000061
+      ],
+      "task_name": "pick_up_the_butter_and_place_it_in_the_basket"
+    },
+    {
+      "task_id": 8,
+      "original": "pick up the milk and place it in the basket",
+      "perturbations": [
+        "pick up the milk and place it in the basket",
+        "lift the milk and put it in the basket",
+        "take the milk and set it in the basket",
+        "grasp the milk, then place it in the basket",
+        "pick up the milk, then put it in the basket"
+      ],
+      "instruction_weights": [
+        1.0,
+        0.9606987237930298,
+        0.9510349035263062,
+        0.9479591846466064,
+        0.9872887134552002
+      ],
+      "task_name": "pick_up_the_milk_and_place_it_in_the_basket"
+    },
+    {
+      "task_id": 9,
+      "original": "pick up the chocolate pudding and place it in the basket",
+      "perturbations": [
+        "pick up the chocolate pudding and place it in the basket",
+        "lift the chocolate pudding and put it in the basket",
+        "take the chocolate pudding and set it in the basket",
+        "grasp the chocolate pudding, then place it in the basket",
+        "pick up the chocolate pudding, then put it in the basket"
+      ],
+      "instruction_weights": [
+        0.9999999403953552,
+        0.9638658761978149,
+        0.9662259817123413,
+        0.9545068144798279,
+        0.9889464974403381
+      ],
+      "task_name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket"
+    },
+    {
+      "task_id": 10,
+      "original": "pick up the orange juice and place it in the basket",
+      "perturbations": [
+        "pick up the orange juice and place it in the basket",
+        "lift the orange juice and put it in the basket",
+        "take the orange juice and set it in the basket",
+        "grasp the orange juice, then place it in the basket",
+        "pick up the orange juice, then put it in the basket"
+      ],
+      "instruction_weights": [
+        1.0,
+        0.9771120548248291,
+        0.9661521911621094,
+        0.9630010724067688,
+        0.9897421598434448
+      ],
+      "task_name": "pick_up_the_orange_juice_and_place_it_in_the_basket"
+    }
+  ],
+  "preparation_source_sha256": "1c610d134cc0539e7565cee0eb5d57b9cdb9801519cf40f6ca19cfca5f4d4680"
+}

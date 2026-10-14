@@ -1,0 +1,13 @@
+{
+  "formula_reference_matrices": 102,
+  "partition_and_timing_tests": 4,
+  "all_four_weight_file_checks_passed": true,
+  "all_80_BDDL_and_80_initial_state_file_hashes_passed": true,
+  "moved_result_audit": {
+    "passed": true,
+    "queries": 4
+  },
+  "GPU_device_mapping_checked": true,
+  "GPU_forward_on_export_not_rerun": true,
+  "scope": "CPU checks and native CUDA/EGL UUID enumeration; active original evaluation workers continue running."
+}

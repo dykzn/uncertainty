@@ -1,0 +1,3 @@
+# Keep pinned third-party references byte-identical, including original formatting.
+author_sources/** -whitespace
+vendor/** -whitespace

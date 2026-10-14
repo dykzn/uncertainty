@@ -1,0 +1,44 @@
+{
+  "checkpoints": [
+    {
+      "model": "OpenVLA",
+      "libero_suites": [
+        "spatial"
+      ],
+      "repo_id": "openvla/openvla-7b-finetuned-libero-spatial",
+      "url": "https://huggingface.co/openvla/openvla-7b-finetuned-libero-spatial",
+      "revision": "962318cec55ac10993ff0f5f43eda9a270b4c873",
+      "directory": "openvla-7b-finetuned-libero-spatial"
+    },
+    {
+      "model": "OpenVLA",
+      "libero_suites": [
+        "object"
+      ],
+      "repo_id": "openvla/openvla-7b-finetuned-libero-object",
+      "url": "https://huggingface.co/openvla/openvla-7b-finetuned-libero-object",
+      "revision": "287d6cfdf12d07b1449505f66d9bf3550257e9b3",
+      "directory": "openvla-7b-finetuned-libero-object"
+    },
+    {
+      "model": "OpenVLA",
+      "libero_suites": [
+        "goal"
+      ],
+      "repo_id": "openvla/openvla-7b-finetuned-libero-goal",
+      "url": "https://huggingface.co/openvla/openvla-7b-finetuned-libero-goal",
+      "revision": "fa5ae1e7509348889295bba8e08621d8b55e9baf",
+      "directory": "openvla-7b-finetuned-libero-goal"
+    },
+    {
+      "model": "OpenVLA",
+      "libero_suites": [
+        "10"
+      ],
+      "repo_id": "openvla/openvla-7b-finetuned-libero-10",
+      "url": "https://huggingface.co/openvla/openvla-7b-finetuned-libero-10",
+      "revision": "80970322773f81baa2e22fe495d0487b93a05cfa",
+      "directory": "openvla-7b-finetuned-libero-10"
+    }
+  ]
+}
